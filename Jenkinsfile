@@ -2,7 +2,6 @@ pipeline {
     agent {
         docker {
             image 'composer:latest'
-            label 'docker-agent' // Optional: specify if you have labeled nodes
         }
     }
     stages {
